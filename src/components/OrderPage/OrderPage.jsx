@@ -228,7 +228,7 @@ function OrderPage() {
               ))}
             </UlItems>
             <Submit>
-              <div>Total: {totalPrice}</div>
+              <div>Total: {totalPrice} &#8372;</div>
             </Submit>
           </div>
         ) : (

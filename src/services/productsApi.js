@@ -7,7 +7,9 @@ axios.defaults.baseURL = BASE_URL;
 export async function getAll() {
   try {
     const response = await axios('/products');
+    console.log(response.data)
     return response.data;
+  
   } catch (error) {
     console.log(error.message);
   }

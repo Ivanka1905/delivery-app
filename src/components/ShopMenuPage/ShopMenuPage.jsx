@@ -48,7 +48,7 @@ function ShopMenuPage() {
               const isFavorite = favoriteItems.includes(_id);
               return (
                 <LiItem key={_id}>
-                  <img src={image} alt={food} width="260px"/>
+                  <img src={image} alt={food} width="260px" height="220px"/>
                       <Title>{cafe}</Title>
                       <TitleSmall><Price><div>{food}</div>
                   <div>Price: {price} &#8372;</div></Price>
